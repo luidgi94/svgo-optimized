@@ -23,6 +23,11 @@ yarn global add svgo
 
 ## CLI usage
 
+Maximize optimization process for single files:
+```sh
+bash launchOptimization.sh
+```
+
 Processing single files:
 ```sh
 svgo one.svg two.svg -o one.min.svg two.min.svg
